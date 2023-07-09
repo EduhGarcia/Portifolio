@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Raleway:wght@200;400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    color: var(--cor-branca);
+}
+
+body {
+    font-family: var(--fonte-primaria);
+}
+
+a {
+    color: var(--cor-branca);
+}

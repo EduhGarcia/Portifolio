@@ -1,0 +1,13 @@
+:root {
+    --cor-vermelho-escuro: #8B0000;
+    --cor-branca: #ffffff;
+    --cor-preta: #000000;
+    --icone-html: #D2691E;
+    --icone-css: #1E90FF;
+    --icone-js: yellow;
+}
+
+:root {
+    --fonte-primaria: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Raleway', sans-serif; 
+}
