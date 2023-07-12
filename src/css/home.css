@@ -1,0 +1,57 @@
+.home {
+    justify-content: center;
+    text-align: center;
+    min-height: 55vh;
+    align-items: center;
+    margin: 0 180px;
+    position: relative;
+}
+
+.home:after{
+    content: url('../imagens/seta_branca.png');
+    position: absolute;
+    bottom: -50px;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+
+.home .text-home {
+    letter-spacing: 2px;
+    font-family: var(--fonte-secundaria);
+}
+
+.home .text-home p {
+    font-size: var(--fonte-grande);
+    margin-bottom: 10px;
+}
+
+.home .text-home h2 {
+    margin-bottom: 20px;
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+}
+
+.home .text-home h3 {
+    font-size: var(--fonte-grande);
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+@keyframes downarrow {
+    0% {-webkit-transform: translateY(0); opacity: 0.4 ;
+    }
+    
+    100% {-webkit-transform: translateY(0.5rem); opacity: 0.9;
+    }
+}
+
+@media (max-width: 1441px) {
+    .home:after {
+        bottom: -20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .home:after {
+        display: none;
+    }
+}

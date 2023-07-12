@@ -6,53 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo Garcia - desenvolvedor Frontend</title>
 
+    <!-- globais -->
     <link rel="stylesheet" href="./src/css/globais.css">
+
+    <!-- seções -->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variaveis.css">
-    <link rel="stylesheet" href="./src/css/globais.css">
     <link rel="stylesheet" href="./src/css/header.css">
     <link rel="stylesheet" href="./src/css/index.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/sobre-mim.css">
+    <link rel="stylesheet" href="./src/css/projects.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="header" id="home">
-        <div class="container">
-            <a href="#">
-                <h1>Eduh</h1>
-            </a>
+    <div class="pag-inicial">
+        <header class="header" id="home">
+            <div class="container row">
+                <a href="#">
+                    <h1>EG</h1>
+                </a>
 
-            <nav>
-                <ul class="navigation">
-                    <a href="#home">
-                        <li class="item-nav">Home</li>
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox">
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+
+                    <ul class="navigation row">
+                        <a href="#home">
+                            <li class="item-page">Home</li>
+                        </a>
+
+                        <a href="#projects">
+                            <li class="item-page">Projetos</li>
+                        </a>
+
+                        <a href="#contacts">
+                            <li class="item-page">Contatos</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="home row">
+            <div class="text-home">
+                <p>Olá 🤙,</p>
+                <h2>Sou o Eduardo Garcia</h2>
+                <h3>Desenvolvedor Frontend</h3>
+
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/eduardo-garcia-774400262/" target="_blank"
+                        class="outer-shadow">
+                        <i class="fab fa-linkedin"></i>
                     </a>
 
-                    <a href="#projects">
-                        <li class="item-nav">Projetos</li>
-                    </a>
+                    <a href="https://github.com/EduhGarcia/" target="_blank" class="outer-shadow"><i
+                            class="fab fa-github"></i></a>
 
-                    <a href="#contacts">
-                        <li class="item-nav">Contatos</li>
-                    </a>
-                </ul>
-            </nav>
-        </div>
+                    <a href="mailto:eg836151@gmail.com" target="_blank" class="outer-shadow"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
 
-        <section class="dev-description">
-
-            <p>Olá me chamo Eduardo, tenho 17 anos e estou em busca do meu primeiro emprego como programador, já fiz
-                vários projetos para aprendizado e me sinto pronto para conseguir meu emprego. Tenho domínio nas linguagens: <span>HTML</span>, <span>CSS</span>, <span>Javascript</span>, <span>Typescript</span> e tenho um pouco de conhecimento de <span>Python</span> </p>
-
+            </div>
         </section>
-    </header>
+    </div>
+
+    <section class="sobre-mim section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre-mim</h2>
+                </div>
+            </div>
+
+            <div class="row img-info">
+                <div class="img-sobre-mim">
+                    <div class="img-box ">
+                        <img class="outer-shadow" src="./src/imagens/Imagem-perfil.png" alt="foto do perfil">
+                    </div>
+                </div>
+
+                <div class="info-sobre-mim">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi facilis quod tempora optio hic
+                        magnam fuga quidem placeat! Reiciendis quod est amet fuga nemo itaque nobis ad ex doloribus
+                        minus.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, delectus unde architecto culpa quod nostrum cupiditate.</p>
+
+                    <div class="botoes">
+                        <a href="./src/arquivos/" target="_blank" class="botao">Veja meu CV</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
 
     <section class="projects" id="projects">
 

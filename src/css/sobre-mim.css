@@ -1,0 +1,81 @@
+.sobre-mim {
+    background-image: url('../imagens/img-sobre-mim.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre-mim .img-sobre-mim {
+    max-width: 40%;
+}
+
+.img-sobre-mim .img-box {
+    border-radius: 50%;
+}
+
+.container {
+    padding-bottom: 200px ;
+}
+
+.container .img-info {
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.img-sobre-mim .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 20px transparent;
+    filter: brightness(65%);
+}
+
+.sobre-mim .info-sobre-mim {
+    max-width: 50%;
+    padding: 0 25px;
+    margin: auto 0 auto 60px;
+}
+
+.sobre-mim .info-sobre-mim .botoes {
+    margin-top: 50px;
+}
+
+.sobre-mim .info-sobre-mim p {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.sobre-mim .botao {
+    font-size: 2rem;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
+    border-radius: 20px;
+}
+
+.sobre-mim .botao:hover {
+    background-color: var(--cor-vermelho-escuro);
+    color: var(--cor-branca);
+}
+
+@media (max-width: 1060px) {
+    .sobre-mim .img-sobre-mim {
+        max-width: 100%;
+        margin-bottom: 50px;
+        padding: 0 40px;
+    }
+
+    .container .img-info {
+        margin-top: 10px;
+    }
+
+    .sobre-mim .info-sobre-mim {
+        text-align: center;
+        margin: 0;
+        padding: 0 30px;
+        max-width: 100%;
+    }
+
+    .container {
+        padding-bottom: 60px;
+    }
+}
