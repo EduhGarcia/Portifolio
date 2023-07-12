@@ -20,14 +20,13 @@ a {
     flex-wrap: wrap;
 }
 
-
 .redes-sociais a {
     display: inline-block;
     width: 50px;
     height: 50px;
     font-size: 2.1rem;
     text-align: center;
-    margin: 0 4px;
+    margin: 0 8px;
     border-radius: 50%;
     transition: 0.3s ease;
     line-height: 50px;
@@ -57,4 +56,10 @@ a {
     font-family: var(--fonte-secundaria);
     font-weight: 500;
     text-transform: uppercase;
+}
+
+@media (max-width: 680px) {
+    .section {
+        padding: 30px;
+    }
 }

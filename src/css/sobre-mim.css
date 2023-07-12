@@ -12,7 +12,7 @@
     border-radius: 50%;
 }
 
-.container {
+.sobre-mim .container {
     padding-bottom: 200px ;
 }
 
@@ -75,7 +75,13 @@
         max-width: 100%;
     }
 
-    .container {
+    .sobre-mim .container {
         padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 628px) {
+    .sobre-mim .info-sobre-mim {
+        padding: 0;
     }
 }

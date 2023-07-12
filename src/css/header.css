@@ -130,3 +130,14 @@
         display: block;
     } 
 }
+
+@media (max-width: 680px) {
+    .header .container {
+        padding: 25px 35px;
+    }
+
+    .header .menu {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+}
