@@ -43,6 +43,11 @@
     margin-bottom: 20px;
 }
 
+.sobre-mim .info-sobre-mim span {
+    text-decoration: underline;
+    text-decoration-color: var(--cor-vermelho-escuro);
+}
+
 .sobre-mim .botao {
     font-size: 2rem;
     padding: 10px 20px;

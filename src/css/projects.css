@@ -19,13 +19,14 @@
     -moz-transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     border-radius: 10px;
+    border: solid 1px white;
 }
 
 .projects .container-projetos .project img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 100%;
-    border: solid 1px white;
+    
     width: 100%;
 }
 
@@ -62,6 +63,8 @@
     width: 100%;
     font-size: 2rem;
     opacity: 0.7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .projects .container-projetos .project:hover, 
