@@ -8,7 +8,7 @@
 }
 
 .home:after{
-    content: url('../imagens/seta_branca.png');
+    content: url('../../assets/img/seta_branca.png');
     position: absolute;
     bottom: -50px;
     animation: downarrow 0.6s infinite alternate ease-in-out;

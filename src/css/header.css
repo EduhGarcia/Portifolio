@@ -95,7 +95,7 @@
 }
 
 .pag-inicial {
-    background-image: url('../imagens/img-home.png');
+    background-image: url('../../assets/img/img-home.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 85vh;
