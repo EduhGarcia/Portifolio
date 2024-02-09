@@ -95,9 +95,6 @@
 }
 
 .pag-inicial {
-    background-image: url('../../assets/img/fundo-home.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 85vh;
     z-index: -1;
 }

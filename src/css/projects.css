@@ -1,6 +1,4 @@
 .projects {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/img/fundo-escritorio.jpg');
-    background-size: cover;
     padding: 55px;
 }
 
@@ -19,7 +17,7 @@
     -moz-transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     border-radius: 10px;
-    border: solid 1px white;
+    border: solid 1px #ffffff;
 }
 
 .projects .container-projetos .project img {

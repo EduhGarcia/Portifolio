@@ -9,6 +9,7 @@ html {
 body {
     font-family: var(--fonte-primaria);
     font-weight: 300;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/img/background.jpg');
 }
 
 a {
@@ -40,8 +41,8 @@ a {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
 }
 
-.section {
-    padding: 6rem;
+.section-default {
+    border-top: 10px solid #000000;
 }
 
 .section-title {
@@ -56,10 +57,4 @@ a {
     font-family: var(--fonte-secundaria);
     font-weight: 500;
     text-transform: uppercase;
-}
-
-@media (max-width: 680px) {
-    .section {
-        padding: 30px;
-    }
 }
