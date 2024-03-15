@@ -32,20 +32,16 @@
     max-width: 50%;
     padding: 0 25px;
     margin: auto 0 auto 60px;
+    letter-spacing: 1px;
 }
 
 .sobre-mim .info-sobre-mim .botoes {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .sobre-mim .info-sobre-mim p {
     font-size: 2.2rem;
     margin-bottom: 20px;
-}
-
-.sobre-mim .info-sobre-mim span {
-    text-decoration: underline;
-    text-decoration-color: var(--cor-vermelho-escuro);
 }
 
 .sobre-mim .botao {
@@ -58,7 +54,7 @@
 }
 
 .sobre-mim .botao:hover {
-    background-color: var(--cor-vermelho-escuro);
+    background-color: var(--cor-azul);
     color: var(--cor-branca);
 }
 

@@ -91,7 +91,7 @@
 }
 
 .item-page:hover {
-    border-bottom: solid 3px var(--cor-vermelho-escuro);
+    border-bottom: solid 3px var(--cor-azul);
 }
 
 .pag-inicial {

@@ -9,7 +9,7 @@ html {
 body {
     font-family: var(--fonte-primaria);
     font-weight: 300;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/img/background.jpg');
+    background-color: rgb(22 22 27);
 }
 
 a {
@@ -19,6 +19,11 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: var(--cor-azul);
 }
 
 .redes-sociais a {
@@ -34,7 +39,7 @@ a {
 }
 
 .redes-sociais a:hover {
-    color: var(--cor-vermelho-escuro);
+    color: var(--cor-azul);
 }
 
 .outer-shadow {
