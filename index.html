@@ -17,12 +17,16 @@
     <link rel="stylesheet" href="./src/css/header.css">
     <link rel="stylesheet" href="./src/css/home.css">
     <link rel="stylesheet" href="./src/css/sobre-mim.css">
+    <link rel="stylesheet" href="./src/css/technologies.css">
     <link rel="stylesheet" href="./src/css/projects.css">
     <link rel="stylesheet" href="./src/css/footer.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 
 <body>
@@ -43,8 +47,12 @@
                     </label>
 
                     <ul class="navigation row">
-                        <a href="#home">
+                        <a href="#sobre-mim">
                             <li class="item-page">Sobre-mim</li>
+                        </a>
+
+                        <a href="#technologies">
+                            <li class="item-page">Tecnologias</li>
                         </a>
 
                         <a href="#projects">
@@ -63,7 +71,7 @@
             <div class="text-home">
                 <p>Olá 🤙,</p>
                 <h2>Sou o Eduardo Garcia</h2>
-                <h3>Desenvolvedor Full Stack</h3>
+                <h3><span>Desenvolvedor</span> Full Stack</h3>
 
                 <div class="redes-sociais">
                     <a href="https://www.linkedin.com/in/eduardo-garcia-774400262/" target="_blank"
@@ -82,7 +90,7 @@
         </section>
     </div>
 
-    <section class="sobre-mim section-default">
+    <section id="sobre-mim" class="sobre-mim section-default">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -93,15 +101,14 @@
             <div class="row img-info">
                 <div class="img-sobre-mim">
                     <div class="img-box ">
-                        <img class="outer-shadow" src="./assets/img/foto_perfil.jpg" alt="foto do perfil" loading="lazy">
+                        <img class="outer-shadow" src="./assets/img/foto_perfil.jpg" alt="foto do perfil"
+                            loading="lazy">
                     </div>
                 </div>
 
                 <div class="info-sobre-mim">
-                    <p>Olá me chamo Eduardo, gosto muito de trabalhar com programação é algo que amei muito desde cedo, e atualmente estou em busca do meu primeiro emprego como programador, já fiz vários projetos pessoais para aprendizado e me sinto pronto para conseguir meu emprego.</p>
-
-                    <p>Tenho domínio nas linguagens: <span>HTML</span>, <span>CSS</span>, <span>Javascript</span>, <span>Typescript</span>, <span>NodeJS</span>, <span>PostgreSQL</span>, e
-                        tenho um pouco de conhecimento de <span>Python</span></p>
+                    <p>Olá me chamo Eduardo, gosto muito de trabalhar com programação é algo que amei muito desde cedo, conclui um curso full-stack com mentorias no qual me especializei muito, já fiz diversos projetos
+                        pessoais cada vez me desafiando mais, ingressei em uma faculdade de "Análise e desenvolvimento de sistemas" para adquirir mais conhecimento e me aprofundar cada vez mais na área, atualmente estou em busca do meu primeiro emprego como programador, e me sinto pronto para conseguir meu emprego.</p>
 
                     <div class="botoes">
                         <a href="./src/arquivos/Curriculo-Full-stack.pdf" target="_blank" class="botao">Veja meu CV</a>
@@ -110,6 +117,93 @@
 
             </div>
 
+        </div>
+    </section>
+
+    <section id="technologies" class="technologies section-default">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Tecnologias dominadas</h2>
+                </div>
+            </div>
+
+            <ul class="container-technologies row">
+                <li class="technology">
+                    <h3>html</h3>
+                    <i class="devicon-html5-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>css</h3>
+                    <i class="devicon-css3-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>javascript</h3>
+                    <i class="devicon-javascript-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>Typescript</h3>
+                    <i class="devicon-typescript-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>Nodejs</h3>
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>jquery</h3>
+                    <i class="devicon-jquery-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>sass</h3>
+                    <i class="devicon-sass-original colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>express</h3>
+                    <i class="devicon-express-original"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>swagger</h3>
+                    <i class="devicon-swagger-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>reactjs</h3>
+                    <i class="devicon-react-original colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>jest</h3>
+                    <i class="devicon-jest-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>PostgreSQL</h3>
+                    <i class="devicon-postgresql-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>git</h3>
+                    <i class="devicon-git-plain colored"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>github</h3>
+                    <i class="devicon-github-original"></i>
+                </li>
+
+                <li class="technology">
+                    <h3>python<br>( básico )</h3>
+                    <i class="devicon-python-plain colored"></i>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -156,11 +250,13 @@
             <div class="project">
                 <a href="https://eduhgarcia.github.io/Ecommerce-Book/" target="_blank">
                     <div class="tamanho-img">
-                        <img src="./assets/img/EcommerceBook.gif" alt="gif do projeto do e-commerce de livros" loading="lazy">
+                        <img src="./assets/img/EcommerceBook.gif" alt="gif do projeto do e-commerce de livros"
+                            loading="lazy">
                     </div>
                     <h3>E-commerce Book</h3>
                     <div class="info-project">
-                        <p>Projeto de um e-commerce de livros, ele possui a página principal, a de checkout e de histórico de pedidos.</p>
+                        <p>Projeto de um e-commerce de livros, ele possui a página principal, a de checkout e de
+                            histórico de pedidos.</p>
                         <p>🔗 Ver no GitHub pages</p>
                     </div>
                 </a>
@@ -169,11 +265,13 @@
             <div class="project">
                 <a href="https://eduhgarcia.github.io/Lista-compras/" target="_blank">
                     <div class="tamanho-img">
-                        <img src="./assets/img/Lista-de-compras.gif" alt="gif do projeto da lista de compras" loading="lazy">
+                        <img src="./assets/img/Lista-de-compras.gif" alt="gif do projeto da lista de compras"
+                            loading="lazy">
                     </div>
                     <h3>Lista de Compras</h3>
                     <div class="info-project">
-                        <p>Projeto de uma lista de compras que pode ser adicionado os itens necessários, possui algumas opções para editar a palavra ou excluir.</p>
+                        <p>Projeto de uma lista de compras que pode ser adicionado os itens necessários, possui algumas
+                            opções para editar a palavra ou excluir.</p>
                         <p>🔗 Ver no GitHub pages</p>
                     </div>
                 </a>
@@ -182,11 +280,13 @@
             <div class="project">
                 <a href="https://eduhgarcia.github.io/Interactive-cards/?" target="_blank">
                     <div class="tamanho-img">
-                        <img src="./assets/img/CardInteractivy.gif" alt="gif do projeto de cartões interativos" loading="lazy">
+                        <img src="./assets/img/CardInteractivy.gif" alt="gif do projeto de cartões interativos"
+                            loading="lazy">
                     </div>
                     <h3>Interactive Cards</h3>
                     <div class="info-project">
-                        <p>Esse é um projeto de um cartão interativo, colocamos as informações necessárias e os dados são modificados nos cartões em tempo real.
+                        <p>Esse é um projeto de um cartão interativo, colocamos as informações necessárias e os dados
+                            são modificados nos cartões em tempo real.
                         </p>
                         <p>🔗 Ver no GitHub pages</p>
                     </div>
@@ -196,11 +296,13 @@
             <div class="project">
                 <a href="https://barbearia-agendamentos-7z52.onrender.com/" target="_blank">
                     <div class="tamanho-img">
-                        <img src="./assets/img/barbearia.gif" alt="gif do projeto de agendamentos da barbearia" loading="lazy">
+                        <img src="./assets/img/barbearia.gif" alt="gif do projeto de agendamentos da barbearia"
+                            loading="lazy">
                     </div>
                     <h3>Agendamento Barbearia</h3>
                     <div class="info-project">
-                        <p>Esse é um projeto de um site para agendamentos de serviços de uma barbearia, um site que possui diversas funcionalidades para o usuário utilizar.</p>
+                        <p>Esse é um projeto de um site para agendamentos de serviços de uma barbearia, um site que
+                            possui diversas funcionalidades para o usuário utilizar.</p>
                         <p>🔗 Ver no GitHub pages</p>
                     </div>
                 </a>

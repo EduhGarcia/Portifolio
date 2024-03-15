@@ -1,0 +1,38 @@
+.technologies {
+    padding: 100px;
+    padding-top: 60px;
+}
+
+.technologies .container .container-technologies{
+    justify-content: center;
+    gap: 50px;
+    margin: 70px;
+}
+
+.technologies .container .technology {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 230px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.technologies .container h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+
+.technologies .container .technology:hover h3 {
+    color: var(--cor-azul);
+}
+
+.technologies .container .container-technologies i {
+    font-size: 90px;
+}
