@@ -1,18 +1,18 @@
-.sobre-mim {
+.about-me {
     padding: 6rem;
 }
 
-.sobre-mim .img-sobre-mim {
+.about-me .img-about-me {
     max-width: 30%;
     display: flex;
     align-items: center;
 }
 
-.img-sobre-mim .img-box {
+.img-about-me .img-box {
     border-radius: 50%;
 }
 
-.sobre-mim .container {
+.about-me .container {
     padding-bottom: 200px ;
 }
 
@@ -21,30 +21,30 @@
     justify-content: center;
 }
 
-.img-sobre-mim .img-box img {
+.img-about-me .img-box img {
     width: 100%;
     border-radius: 50%;
     border: solid 10px transparent;
     filter: brightness(65%);
 }
 
-.sobre-mim .info-sobre-mim {
+.about-me .info-about-me {
     max-width: 50%;
     padding: 0 25px;
     margin: auto 0 auto 60px;
     letter-spacing: 1px;
 }
 
-.sobre-mim .info-sobre-mim .botoes {
+.about-me .info-about-me .botoes {
     margin-top: 60px;
 }
 
-.sobre-mim .info-sobre-mim p {
+.about-me .info-about-me p {
     font-size: 2.2rem;
     margin-bottom: 20px;
 }
 
-.sobre-mim .botao {
+.about-me .botao {
     font-size: 2rem;
     padding: 10px 20px;
     transition: 0.3s ease;
@@ -53,13 +53,13 @@
     border-radius: 20px;
 }
 
-.sobre-mim .botao:hover {
+.about-me .botao:hover {
     background-color: var(--cor-azul);
     color: var(--cor-branca);
 }
 
 @media (max-width: 1060px) {
-    .sobre-mim .img-sobre-mim {
+    .about-me .img-about-me {
         max-width: 60%;
         margin-bottom: 50px;
         padding: 0 40px;
@@ -69,24 +69,24 @@
         margin-top: 10px;
     }
 
-    .sobre-mim .info-sobre-mim {
+    .about-me .info-about-me {
         text-align: center;
         margin: 0;
         padding: 0 30px;
         max-width: 100%;
     }
 
-    .sobre-mim .container {
+    .about-me .container {
         padding-bottom: 60px;
     }
 }
 
 @media (max-width: 628px) {
-    .sobre-mim .info-sobre-mim {
+    .about-me .info-about-me {
         padding: 0;
     }
 
-    .sobre-mim {
+    .about-me {
         padding: 30px;
     }
 }
