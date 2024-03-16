@@ -61,3 +61,22 @@
         margin: 0;
     }
 }
+
+@media (max-width: 370px) {
+    .home .text-home p {
+        font-size: var(--fonte-normal);
+        margin-bottom: 10px;
+    }
+    
+    .home .text-home h2 {
+        margin-bottom: 20px;
+        font-size: var(--fonte-extra-grande);
+        font-weight: 700;
+    }
+    
+    .home .text-home h3 {
+        font-size: var(--fonte-normal);
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+}

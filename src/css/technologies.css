@@ -36,3 +36,28 @@
 .technologies .container .container-technologies i {
     font-size: 90px;
 }
+
+
+@media(max-width: 1130px) {
+    .technologies .container .container-technologies{
+        margin: 20px;
+    }
+}
+
+@media (max-width: 755px) {
+    .technologies {
+        padding: 70px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 690px) {
+    .technologies {
+        padding: 30px;
+        padding-top: 40px;
+    }
+
+    .technologies .container h3 {
+        font-size: var(--fonte-normal);
+    }
+}

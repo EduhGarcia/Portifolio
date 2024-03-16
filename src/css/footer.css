@@ -10,6 +10,14 @@
     margin: 5rem;
 }
 
+.footer .redes-sociais a:nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.footer .redes-sociais a:nth-child(3) {
+    transition-delay: 600ms;
+}
+
 @media (max-width: 680px) {
     .footer {
         padding: 3rem;

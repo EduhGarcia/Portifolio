@@ -21,11 +21,16 @@
     justify-content: center;
 }
 
+.container .img-info div:nth-child(2) {
+    transition: all 0.8s;
+    transition-delay: 400ms;
+}
+
 .img-about-me .img-box img {
     width: 100%;
     border-radius: 50%;
     border: solid 10px transparent;
-    filter: brightness(65%);
+    filter: brightness(68%);
 }
 
 .about-me .info-about-me {
@@ -88,5 +93,10 @@
 
     .about-me {
         padding: 30px;
+    }
+
+    .about-me .img-about-me {
+        max-width: 80%;
+        padding: 0;
     }
 }
