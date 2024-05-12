@@ -1,5 +1,6 @@
 .about-me {
     padding: 6rem;
+    background-image: linear-gradient(20deg, #9bc5c3  0%, #616161c3 100%);
 }
 
 .about-me .img-about-me {

@@ -2,14 +2,13 @@
 
 html {
     font-size: 62.5%;
-    color: var(--cor-branca);
+    color: var(--cor-preta);
     scroll-behavior: smooth;
 }
 
 body {
     font-family: var(--fonte-primaria);
     font-weight: 300;
-    background-color: rgb(22 22 27);
 }
 
 a {
@@ -21,33 +20,14 @@ a {
     flex-wrap: wrap;
 }
 
-span {
-    text-decoration: underline;
-    text-decoration-color: var(--cor-azul);
-}
 
-.redes-sociais a {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    font-size: 2.1rem;
-    text-align: center;
-    margin: 0 8px;
-    border-radius: 50%;
-    transition: 0.3s ease;
-    line-height: 50px;
-}
-
-.redes-sociais a:hover {
-    color: var(--cor-azul);
-}
 
 .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
 }
 
 .section-default {
-    border-top: 10px solid #000000;
+    border-top: 10px groove #000000;
 }
 
 .section-title {

@@ -1,9 +1,9 @@
 .header .container {
-    font-size: var(--fonte-extra-grande);
+    font-size: var(--fonte-grande);
     justify-content: space-between;
     align-items: center;
-    padding: 40px 65px;
-    background-color: var(--cor-preta);
+    padding: 30px 65px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))
 }
 
 .header .container h1 {
@@ -97,6 +97,7 @@
 .pag-initial {
     min-height: 85vh;
     z-index: -1;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
 }
 
 @media(max-width: 1160px) {
