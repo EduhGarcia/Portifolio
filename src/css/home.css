@@ -40,12 +40,12 @@
     display: inline-block;
     font-size: 25px;
     width: 50px;
-    color:  var(--cor-azul);
+    color:  #DEB887;
     transition: .3s ease-in-out;
 }
 
 .home .text-home .redes-sociais a:hover {
-    color: rgb(107 114 128);
+    color: #F4A460;
 }
 
 .home .text-home h3 {
