@@ -50,10 +50,6 @@
     transition: .2s ease-in-out;
 }
 
-/* .projects .container-projetos .project:hover .img-phone img {
-    opacity: 0;
-} */
-
 .projects .container-projetos .project .size-img{
     max-width: 600px;
 }
