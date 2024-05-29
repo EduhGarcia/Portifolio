@@ -9,6 +9,20 @@ html {
 body {
     font-family: var(--fonte-primaria);
     font-weight: 300;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: RGB(104, 109, 109);
+    border-radius: 30px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: RGB(122, 140, 139);
 }
 
 a {
@@ -20,8 +34,6 @@ a {
     flex-wrap: wrap;
 }
 
-
-
 .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
 }
@@ -32,7 +44,6 @@ a {
 
 .section-title {
     text-align: center;
-    flex: 0 0 100%;
     width: 100%;
     padding: 60px 0;
 }
